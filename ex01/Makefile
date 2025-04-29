@@ -1,7 +1,7 @@
 CC = CC
 FLAGS = -Wall -Werror -Wextra -std=c++98
 NAME = ClapTrap
-SOURCES = ClapTrap.cpp main.cpp\
+SOURCES = ClapTrap.cpp ScavTrap.cpp main.cpp\
 
 OBJECTS = $(SOURCES:%.cpp=%.o)
 

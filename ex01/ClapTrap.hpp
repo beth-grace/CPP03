@@ -4,18 +4,18 @@
 
 class ClapTrap
 {
-    private:
-        std::string _name;
-        int _hp;
-        int _energy;
-        int _damage;
+    protected:
+    std::string _name;
+    unsigned int _hp;
+    unsigned int _energy;
+    unsigned int _damage;
 
 
     public:
         ClapTrap();
         ClapTrap(const ClapTrap &copy);
         ClapTrap(std::string name);
-        ~ClapTrap();
+       virtual ~ClapTrap();
 
         ClapTrap &operator = (const ClapTrap &src);
 
